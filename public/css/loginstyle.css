@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/DALL·E\ 2023-04-06\ 20.10.16\ -\ classroom.png);
+
+    background-size: 85%;
+
+    background-repeat: no-repeat;
+
+    overflow: hidden;
+    font-family: 'Helvetica Neue', sans-serif;
+
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+#logo{
+    position: absolute;
+    width: 52px;
+    height: 54px;
+    left: 54px;
+    top: 37px;
+
+    /* background: #FFFFFF; */
+}
+
+#sitename{
+    position: absolute;
+width: 227px;
+height: 51px;
+left: 109px;
+top: 40px;
+
+background: url(image.png);
+mix-blend-mode: lighten;
+}
+
+#back{
+    position: relative;
+    left: 80%;
+    padding-top: 39px;
+    transition-duration: 0.2s;
+    border-radius: 25px;
+}
+
+#back:hover{
+    /* border: #67a600;
+    border: 5px; */
+    /* background-color: #67a600; */
+    
+    border:2px solid #67a600;
+    border-radius: 30px;
+    transition-duration: 0.2s;
+    
+}
+
+.center{
+    position: absolute;
+    top: 0%;
+    left: 55%;
+    border-top-left-radius: 17%;
+    border-bottom-left-radius: 17%  ;
+    box-shadow: -5px 0px 100px rgba(0, 0, 0, 0.8);
+    /* transform: translate(-50%,-50%); */
+    height: 100%;
+    width: 45%;
+    padding: 5% 5%;
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+
+}
+
+.center h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: -2px;
+    color: #555555;
+    text-align: center;
+    padding: 0px;
+    /* border-bottom: 1px solid silver; */
+}
+.center h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: -22px;
+    color: #555555;
+    text-align: center;
+}
+.center form{
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+
+form .txt_feild{
+    position: relative;
+    border-bottom: 2px  solid #616161;
+    margin: 20px 0px 10px 0;
+}
+
+.txt_feild input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 15px;
+    border: none; 
+    background: none;
+    outline: none;
+}
+
+.txt_feild label{
+    position: absolute;
+    top: 50%;
+    /* left: 5px; */
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 14px;
+    pointer-events: none;
+    transition: .3s;
+}
+
+.txt_feild span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #67a600;
+    transition: .2s;
+}
+
+.txt_feild input:focus ~ label, .txt_feild input:valid ~ label{
+    top: -5px; 
+    color: #67a600;
+}
+
+.other{
+    margin-top:10%;
+    text-align: center;
+}
+.other span{
+    padding: 5px 20px;
+}
+
+#or{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 19px;
+    color: #383838;
+}
+
+
+
+.txt_feild input:focus ~ span::before, .txt_feild input:valid ~ span ::before{
+    width: 100%;
+}
+
+.pass a{
+    
+    /* margin: 20px 0px 20px 5px; */
+    font-weight: 600;
+    position:relative;
+    right: -74%;
+    color: #67a600;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.pass:hover{
+    color: #67a600;
+    text-decoration: underline;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+    border: 2px solid;
+    background: #67a600;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #e9f4fb;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover{
+    border-color: #67a600;
+    transition: .2s;
+}
+
+.signuplink{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+}
+
+.signuplink a{
+    color: #67a600;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.signuplink a:hover{
+    text-decoration: underline;
+}

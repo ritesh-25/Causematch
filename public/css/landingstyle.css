@@ -1,0 +1,351 @@
+html {
+    scroll-behavior: smooth;
+   }
+.uu{
+    background-image: url("../images/child.jpg");
+    background-repeat: no-repeat;
+    background-color: #0c1107;
+    /* background-attachment: fixed; */
+    position: absolute;
+    background-position: right;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width:100%
+  }
+   body{
+    margin: 0;
+  }
+  
+.headd{
+    display: flex;
+    justify-content: space-between;
+}
+.top1{
+    margin-top: 2%;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+}
+
+.top2{
+    width: 30%;
+    margin-top: 2%;
+    margin-right: 5%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+a {
+    color: white;
+    text-decoration: inherit;
+}
+/* .text{
+    margin-top: 15%;
+} */
+.text{
+    position: absolute;
+width: 48%;
+height: 30%;
+left: 10%;
+top: 15%;
+font-family: 'Newake';
+font-style: normal;
+font-weight: 40%;
+font-size: 800%;
+line-height: 80%;
+/* or 94% */
+margin-bottom: 2%;
+letter-spacing: 0.00em;
+color: aliceblue;
+}
+.btext{
+    position: absolute;
+    width: 60%;
+    height: 20%;
+    left: 10%;
+    top: 68%;
+    
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight:200;
+    font-size: 200%;
+    line-height: 20%;
+    margin-top: 1%;
+    color: white;
+    
+    opacity: 0.7;
+}
+.navbtn{
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    /* font-weight: 400; */
+    font-size: 24px;
+    /* line-height: 120px; */
+    /* identical to box height, or 500% */
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    
+    opacity: 0.5;
+}
+
+.logbtn{
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    /* font-weight: 400; */
+    font-size: 24px;
+    /* line-height: 120px;     */
+    letter-spacing: 0.03em;
+    color: #67A600;
+}
+.signupbtn{
+    background-color: #0c1107;
+box-sizing: border-box;
+position: absolute;
+width: 13%;
+height: 87px;
+left: 10%;
+top: 79%;
+border: 3px solid #9EFF00;
+border-radius: 57.5px;
+font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+/* line-height: 375%; */
+/* or 375% */
+letter-spacing: 0.03em;
+
+color: #67A600;
+}
+.signupbtn:hover{
+    background-color:#67A600;
+    box-sizing: border-box;
+    position: absolute;
+    width: 13%;
+    height: 87px;
+    left: 10%;
+    top: 79%;
+    border: 3px solid #0c1107;
+    border-radius: 57.5px;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    /* line-height: 375%; */
+    /* or 375% */
+    letter-spacing: 0.03em;
+    color: #0c1107;
+}
+.aise:hover{
+    color: #0c1107;
+}
+.wte{
+position: absolute;
+width: 50%;
+height: 5%;
+left: 5%;
+top: 110%;
+font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 225%;
+line-height: 375%;
+letter-spacing: 0.03em;
+color: #A4A4A4;
+}
+.docie{
+position: absolute;
+width: 60%;
+height: 40%;
+left: 5%;
+top: 117%;
+font-family: 'Newake';
+font-style: normal;
+font-weight: 400;
+font-size: 400%;
+line-height: 150%;
+/* or 94% */
+letter-spacing: 0.03em;
+color: #1E1E1E;
+}
+
+.curve{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    left: 0;
+    top:180%;
+background-image: url(../images/Vector\ 2.png);
+background-repeat: no-repeat;
+display: flex;
+justify-content: space-around;
+
+}
+.circle {
+    position: relative;
+    display: inline;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 500%;
+    color: white;
+    font-weight: 600;
+    border: 3px solid #67A600;
+    background-color: #67A600;
+}
+
+.text123{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    left: 0;
+    top:200%;
+    display: flex;
+    justify-content: space-around;
+}
+.text1{
+    width: 25%;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+.textb{
+    font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 0.03em;
+
+color: #555555;
+}
+.dcol{
+    position: absolute;
+    /* height: 40%; */
+    top: 225%;
+    display: flex;
+    justify-content: space-around;
+}
+.dtext{
+    width: 25%;
+    left: 10%;
+    height: 48%;
+    font-family: 'Newake';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* or 188% */
+
+letter-spacing: 0.03em;
+
+color: #1E1E1E;
+}
+.greenend{
+    position: absolute;
+width: 100%;
+height:80%;
+left: 0px;
+top: 280%;
+
+background: #4B7900;
+}
+.whyb{
+    
+    margin-left: 5%;
+    margin-top: 0;
+    top: 0%;
+    font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 90px;
+/* identical to box height, or 188% */
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+.ep{
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+opacity: 0.8;
+}
+.suan{
+    width: 15%;
+    font-family: 'HelveticaNeue';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 200%;
+margin-top: 7%;
+/* or 125% */
+
+
+color: #1E1E1E;
+}
+.jut{
+    position: absolute;
+    top: 367%;
+    height: 80%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.block{
+    text-align: center;
+    box-sizing: border-box;
+    width: 20%;
+    height: 55%;
+    color: #4B7900;
+    border-color: #4B7900;
+    margin-top: 6%;
+    line-height: 40%;
+    border-radius: 10%;
+    border: 3px solid #4B7900;
+}
+.btns{
+    margin-top: 25%;
+}
+.ss{
+    background-color: #4B7900;
+    box-sizing: border-box;
+    border: 3px solid #4B7900;
+    width: 35%;
+    margin-left: 5%;
+    border-radius: 4%;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    /* line-height: 375%; */
+    /* or 375% */
+    letter-spacing: 0.03em;
+    
+    color: #67A600;
+}
+.wwd{
+    margin-top: 0;
+    position: absolute;
+    top:430%;
+    height: 70%;
+    width: 100%;
+    background-color: white;
+}
