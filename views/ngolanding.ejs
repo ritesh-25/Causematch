@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ngolanding</title>
+    <link rel="stylesheet" href="css/donstyle.css">
+</head>
+<body>
+    <div id="container">
+        <section id="check">
+            <img src="images/Vector (1).png" alt="check">
+        </section>
+        <div class="box1">
+            <h1 style="font-size: 50px; line-height: 40px;" >
+                We have your back.
+            </h1>
+            <div id="cont1">
+                With a global team dedicated to trust and safety, we’ve successfully managed donations worldwide for more than a decade. Don’t worry about a thing, we’ve got you covered.
+
+            </div>
+            <div id="cont2">
+                <a href="#">Explore Trust & Safety &#9658;</a>
+            </div>
+
+            <div class="buttons" id="left1">
+                <div style="margin-bottom: 10px;">
+                    <img src="images/hand.png" alt="">
+                </div>
+                <form action="/ngolanding" method="post">
+                    <h2>
+                        Request
+                    </h2>
+                    <h4>
+                        Donation for a Causematch Users
+                    </h4>
+                    <input type="text" name="email" style="display: none;" value="<%=y.email%>">
+                    <input type="text" name="ngoname" style="display: none;" value="<%=y.username%>">
+                    <input type="text" name="descryption" id="" class="descrypt" placeholder="Type Here">
+                    <button type="submit">Request</button>
+                </form>
+            </div>
+            <div class="buttons" id="right1">
+                <div style="margin-bottom: 10px;">
+                    <img src="/images/ppl.png" alt="">
+                </div>
+                <h3>To check Donation Requests By Causematch users</h3>
+                <button class ="userreq" type="button"><a href="donatebyuse">Click Here</a></button>
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+</html>

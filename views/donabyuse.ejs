@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>donations</title>
+    <link rel="stylesheet" href="css/donatebyuse.css">
+</head>
+<body>
+    <div class="box" id="heading">
+        <h1>Donation requests by the user's</h1>
+      </div>
+    
+      <div class="box">
+    
+    
+      <%  newListItems.forEach(function(item){ %>
+    
+        <form action="/delete" method="post">
+          <div class="item">
+    
+            <h3>Name - <%=item.name%></h3>
+            <h3>Email - <%=item.email%></h3>
+            <h3>Contact No- <%=item.contact%></h3>
+            <span class="dondes" ><%=item.descryption%></span>
+            <input type="checkbox" name="checkbox" value="<%=item._id%>" onChange="this.form.submit()">
+          </div>
+        </form>
+      <%  }) %> 
+      </div>
+</body>
+</html>
