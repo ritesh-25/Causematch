@@ -22,7 +22,7 @@ app.get("/ngosignup",function(req,res){
 app.get("/ngologin",function(req,res){
     res.sendFile(__dirname + "/ngologin.html");
 });
-mongoose.connect('mongodb+srv://riteshbaindara25:eP5J0K71Zr21MH4G@causematch.l6lkkmh.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://riteshbaindara25:0Wz69JuE0DUccUfP@causematch.l6lkkmh.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
         console.log("MONGO CONNECTION OPEN!!!")
     })
