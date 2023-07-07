@@ -22,7 +22,7 @@ app.get("/ngosignup",function(req,res){
 app.get("/ngologin",function(req,res){
     res.sendFile(__dirname + "/ngologin.html");
 });
-mongoose.connect('mongodb+srv://riteshbaindara25:0Wz69JuE0DUccUfP@causematch.l6lkkmh.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://riteshbaindara25:eP5J0K71Zr21MH4G@causematch.l6lkkmh.mongodb.net/?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => {
         console.log("MONGO CONNECTION OPEN!!!")
     })
@@ -70,10 +70,11 @@ const username = req.body.username;
 const password = req.body.password;
 causematchUser.findOne({email:username}).then(post=>{
     if(post.password===password){
-        res.sendFile(__dirname + "/donating.html")
 
+        res.sendFile(__dirname + "/donating.html")
     }
     else{
+        res.sendFile(__dirname + "/loginwp.html")
         console.log(post.password);
     }
     });
@@ -86,6 +87,7 @@ app.post("/ngologin",function(req,res){
             res.render("ngolanding",{y:post});
         }
         else{
+            res.sendFile(__dirname + "/ngologinwp.html")
             console.log(post.password);
         }
     });
@@ -151,6 +153,6 @@ app.post("/delete",function(req,res){
   res.redirect("/donatebyuse");
 });
 
-app.listen(process.env.PORT||3000,function(){
+app.listen(3000,function(){
 console.log("haa bhai kam  gya");
 });
